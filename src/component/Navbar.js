@@ -1,22 +1,17 @@
 import { Link } from 'react-router-dom';
-// import Home from './home';
-// import About from './about';
-// import Portfolio from './portfolio';
-// import Contact from './contact';
 
-function Navbar() {
+ function Navbar() {
+
   return (
-    <div className='vh'>
-    
-      <Link to="/" className='lc'>Home</Link>
-    
-      <Link to="portfolio" className='lc'>Portfolio</Link>
-    
-      <Link to="about" className='lc'>About</Link>
-   
-      <Link to="contact" className='lc'>Contact</Link>
-    
-  </div>
+    <div className='tab'>
+      <div className='linker'>
+      <Link className='btn' to="/">Home</Link>
+      <Link className='btn' to="portfolio">Portfolio</Link>
+      <Link className='btn' to="about" >About</Link>
+      <Link className='btn' to="contact">Contact</Link>
+      </div>
+      </div>
+  
   );
 }
 
