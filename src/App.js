@@ -1,4 +1,5 @@
 import './App.css';
+import ilogo from './asset/logo.svg';
 import Home from './component/home';
 import About from './component/about';
 import Contact from './component/contact';
@@ -10,8 +11,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className='main' >
-      <h1>Blessed Builders </h1>
+    <div className='header' >
+      {/* <img src={ilogo} alt="logo" className="logo" /> */}
       <div >
       
       
